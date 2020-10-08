@@ -23,7 +23,6 @@ webpush.setVapidDetails(
     vapidKeys.privateKey
 );
 
-
 const subscribe = express.Router();
 subscribe.post('/', (req, res) => {
     const subscription = req.body;
